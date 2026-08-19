@@ -1,0 +1,7 @@
+&DOS
+  prefix = 'ZrFCl'
+  outdir = './out'
+  fildos = 'dos.dat'
+/
+K_POINTS (automatic)
+128 128 1 0 0

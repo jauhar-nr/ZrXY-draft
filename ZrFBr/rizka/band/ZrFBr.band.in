@@ -1,0 +1,5 @@
+&BANDS
+  prefix = 'ZrFBr'
+  outdir = './out'
+  filband = 'bands.dat'
+/

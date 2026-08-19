@@ -1,0 +1,5 @@
+&DOS
+  prefix = 'ZrF2'
+  outdir = './out'
+  fildos = 'dos.dat'
+/

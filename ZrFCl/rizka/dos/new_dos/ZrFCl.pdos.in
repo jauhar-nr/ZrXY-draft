@@ -1,0 +1,8 @@
+&PROJWFC
+  prefix = 'ZrFCl'
+  outdir = './out'
+  filpdos = 'pdos'
+  ! Emin = -10.0
+  ! Emax =  10.0
+  DeltaE = 0.01
+/

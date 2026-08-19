@@ -1,0 +1,208 @@
+
+     Program PWSCF v.7.2 starts on  7Aug2026 at 16:49:29 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    32 processors
+
+     MPI processes distributed on     1 nodes
+     223292 MiB available memory on the printing compute node when the environment starts
+
+     Waiting for input...
+     Reading input from standard input
+
+     Current dimensions of program PWSCF are:
+     Max number of different atomic species (ntypx) = 10
+     Max number of k-points (npk) =  40000
+     Max angular momentum in pseudopotentials (lmaxx) =  4
+
+     Atomic positions and unit cell read from directory:
+     ./out/ZrCl2.save/
+     Atomic positions from file used, from input discarded
+
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file Cl.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P renormalized
+     Message from routine setup:
+     using ibrav=0 with symmetry is DISCOURAGED, use correct ibrav instead
+
+     R & G space division:  proc/nbgrp/npool/nimage =      32
+     Subspace diagonalization in iterative solution of the eigenvalue problem:
+     a serial algorithm will be used
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          18      18      5                 2052     2052     321
+     Max          19      19      6                 2068     2068     348
+     Sum         583     583    163                65927    65927   10613
+
+     Using Slab Decomposition
+
+
+
+     bravais-lattice index     =            0
+     lattice parameter (alat)  =       6.4451  a.u.
+     unit-cell volume          =    1376.9368 (a.u.)^3
+     number of atoms/cell      =            3
+     number of atomic types    =            2
+     number of electrons       =        26.00
+     number of Kohn-Sham states=           26
+     kinetic-energy cutoff     =      50.0000  Ry
+     charge density cutoff     =     200.0000  Ry
+     Exchange-correlation= SLA  PW   PBX  PBC
+                           (   1   4   3   4   0   0   0)
+
+     celldm(1)=   6.445054  celldm(2)=   0.000000  celldm(3)=   0.000000
+     celldm(4)=   0.000000  celldm(5)=   0.000000  celldm(6)=   0.000000
+
+     crystal axes: (cart. coord. in units of alat)
+               a(1) = (   1.000000  -0.000000   0.000000 )  
+               a(2) = (  -0.500000   0.866025   0.000000 )  
+               a(3) = (  -0.000000  -0.000000   5.938867 )  
+
+     reciprocal axes: (cart. coord. in units 2 pi/alat)
+               b(1) = (  1.000000  0.577350  0.000000 )  
+               b(2) = (  0.000000  1.154701  0.000000 )  
+               b(3) = ( -0.000000 -0.000000  0.168382 )  
+
+
+     PseudoPot. # 1 for Zr read from file:
+     /mgpfs/home/rabdillah/repo/qe/pseudo/Zr.pbe-spn-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 02112c41713a0468aff2bb39ef194e36
+     Pseudo is Projector augmented-wave + core cor, Zval = 12.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.2.2
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1225 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     PseudoPot. # 2 for Cl read from file:
+     /mgpfs/home/rabdillah/repo/qe/pseudo/Cl.pbe-n-kjpaw_psl.1.0.0.UPF
+     MD5 check sum: 530da96d25dcb7781b0586ca00827062
+     Pseudo is Projector augmented-wave + core cor, Zval =  7.0
+     Generated using &quot;atomic&quot; code by A. Dal Corso  v.6.3
+     Shape of augmentation charge: PSQ
+     Using radial grid of 1157 points,  6 beta functions with: 
+                l(1) =   0
+                l(2) =   0
+                l(3) =   1
+                l(4) =   1
+                l(5) =   2
+                l(6) =   2
+     Q(r) pseudized with 0 coefficients 
+
+
+     atomic species   valence    mass     pseudopotential
+        Zr            12.00    91.22400     Zr( 1.00)
+        Cl             7.00    35.45300     Cl( 1.00)
+
+     12 Sym. Ops. (no inversion) found
+
+
+
+   Cartesian axes
+
+     site n.     atom                  positions (alat units)
+         1           Zr  tau(   1) = (   0.0000000   0.0000000   2.9694337  )
+         2           Cl  tau(   2) = (  -0.0000000   0.5773503   3.4721697  )
+         3           Cl  tau(   3) = (  -0.0000000   0.5773503   2.4666976  )
+
+     number of k points=   217 (tetrahedron method)
+
+     Number of k-points >= 100: set verbosity='high' to print them.
+
+     Dense  grid:    65927 G-vectors     FFT dimensions: (  30,  30, 180)
+
+     Estimated max dynamical RAM per process >       9.21 MB
+
+     Estimated total dynamical RAM >     294.87 MB
+
+     Check: negative core charge=   -0.000006
+
+     The potential is recalculated from file :
+     ./out/ZrCl2.save/charge-density
+
+
+     negative rho (up, down):  2.426E-03 0.000E+00
+     Starting wfcs are   21 randomized atomic wfcs +    5 random wfcs
+     Checking if some PAW data can be deallocated... 
+
+     Band Structure Calculation
+     Davidson diagonalization with overlap
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+     c_bands:  1 eigenvalues not converged
+
+     ethr =  3.85E-09,  avg # of iterations = 38.6
+
+     total cpu time spent up to now is       51.4 secs
+
+     End of band structure calculation
+
+     Number of k-points >= 100: set verbosity='high' to print the bands.
+
+     the Fermi energy is     0.5327 ev
+     (compare with:     0.2252 eV, computed in scf)
+
+     Writing all to output data dir ./out/ZrCl2.save/
+
+     init_run     :      0.15s CPU      0.18s WALL (       1 calls)
+     electrons    :     50.00s CPU     50.69s WALL (       1 calls)
+
+     Called by init_run:
+     wfcinit      :      0.00s CPU      0.00s WALL (       1 calls)
+     potinit      :      0.05s CPU      0.06s WALL (       1 calls)
+     hinit0       :      0.06s CPU      0.07s WALL (       1 calls)
+
+     Called by electrons:
+     c_bands      :     49.95s CPU     50.65s WALL (       1 calls)
+     v_of_rho     :      0.00s CPU      0.00s WALL (       1 calls)
+     newd         :      0.02s CPU      0.02s WALL (       1 calls)
+     PAW_pot      :      0.04s CPU      0.06s WALL (       1 calls)
+
+     Called by c_bands:
+     init_us_2    :      0.02s CPU      0.02s WALL (     217 calls)
+     init_us_2:cp :      0.02s CPU      0.02s WALL (     217 calls)
+     cegterg      :     47.75s CPU     48.35s WALL (     520 calls)
+
+     Called by *egterg:
+     cdiaghg      :      8.24s CPU      8.31s WALL (    8603 calls)
+     h_psi        :     24.80s CPU     25.27s WALL (    9123 calls)
+     s_psi        :      1.69s CPU      1.70s WALL (    9123 calls)
+     g_psi        :      0.08s CPU      0.08s WALL (    8386 calls)
+
+     Called by h_psi:
+     h_psi:calbec :      3.62s CPU      3.68s WALL (    9123 calls)
+     vloc_psi     :     19.44s CPU     19.83s WALL (    9123 calls)
+     add_vuspsi   :      1.68s CPU      1.70s WALL (    9123 calls)
+
+     General routines
+     calbec       :      3.61s CPU      3.67s WALL (    9123 calls)
+     fft          :      0.00s CPU      0.01s WALL (      12 calls)
+     fftw         :     18.46s CPU     18.83s WALL (  220798 calls)
+     davcio       :      0.02s CPU      0.09s WALL (     434 calls)
+
+     Parallel routines
+
+     PWSCF        :     51.74s CPU     54.07s WALL
+
+
+   This run was terminated on:  16:50:24   7Aug2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

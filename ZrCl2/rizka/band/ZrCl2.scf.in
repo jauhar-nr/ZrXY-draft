@@ -1,0 +1,32 @@
+&CONTROL
+  prefix = 'ZrCl2'
+  outdir = './out'
+  pseudo_dir = '/mgpfs/home/rabdillah/repo/qe/pseudo'
+  calculation = 'scf'
+/
+&SYSTEM
+  ibrav = 0
+  nat   = 3
+  ntyp  = 2
+  ecutwfc = 50
+  nbnd  = 26
+/
+&ELECTRONS
+/
+
+ATOMIC_SPECIES
+Zr  91.224   Zr.pbe-spn-kjpaw_psl.1.0.0.UPF
+Cl  35.453   Cl.pbe-n-kjpaw_psl.1.0.0.UPF
+
+CELL_PARAMETERS (angstrom)
+   3.410575922  -0.000000000   0.000000000
+  -1.705287961   2.953645390   0.000000000
+  -0.000000000  -0.000000000  20.254957935
+
+ATOMIC_POSITIONS (crystal)
+  Zr     0.0000000000    0.0000000000    0.5000000000
+  Cl     0.3333333330    0.6666666670    0.5846518428
+  Cl     0.3333333330    0.6666666670    0.4153481572
+
+K_POINTS {automatic}
+32 32 1 0 0 0

@@ -1,0 +1,34 @@
+&CONTROL
+  prefix = 'ZrFBr'
+  outdir = './out'
+  pseudo_dir = '/mgpfs/home/rabdillah/repo/qe/pseudo'
+  calculation = 'nscf'
+/
+&SYSTEM
+  ibrav = 0
+  nat   = 3
+  ntyp  = 3
+  ecutwfc = 65
+  occupations = 'tetrahedra'
+  nbnd  = 26
+/
+&ELECTRONS
+/
+
+ATOMIC_SPECIES
+Zr  91.224   Zr.pbe-spn-kjpaw_psl.1.0.0.UPF
+F   18.998   F.pbe-n-kjpaw_psl.1.0.0.UPF
+Br  79.904   Br.pbe-n-kjpaw_psl.1.0.0.UPF
+
+CELL_PARAMETERS (angstrom)
+   3.344423625  -0.000000000  -0.000000000
+  -1.672211813   2.896355821  -0.000000000
+   0.000000000   0.000000000  10.000000000
+
+ATOMIC_POSITIONS (angstrom)
+  Zr        0.0000000000      0.0000000000     10.1037672181
+  F        -0.0000000020      1.9309038816     11.4064358450
+  Br       -0.0000000020      1.9309038816      8.2079756499
+
+K_POINTS {automatic}
+128 128 1 0 0 0
