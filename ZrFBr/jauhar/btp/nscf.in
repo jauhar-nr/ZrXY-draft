@@ -1,0 +1,36 @@
+&CONTROL
+  calculation = 'nscf',
+  pseudo_dir = '../pseudo/',
+  outdir = './tmp',
+  prefix = 'ZrFBr',
+/
+
+&SYSTEM
+  ibrav       = 0,
+  nat         = 3,
+  ntyp        = 3,
+  ecutwfc     = 65.0,
+  nbnd        = 36,
+  occupations = 'tetrahedra',
+/
+
+&ELECTRONS
+/
+
+ATOMIC_SPECIES
+  Zr  91.224  Zr.pbe-spn-kjpaw_psl.1.0.0.UPF
+  F   18.998  F.pbe-n-kjpaw_psl.1.0.0.UPF
+  Br  79.904  Br.pbe-n-kjpaw_psl.1.0.0.UPF
+
+CELL_PARAMETERS {angstrom}
+  3.343942779  -0.000000000   0.000000000
+  1.671971389   2.895939395   0.000000000
+  0.000000000   0.000000000  10.000000000
+
+ATOMIC_POSITIONS {angstrom}
+  Zr   1.671971388   0.965313131  10.197570978
+  F    3.343942780   1.930626264  11.502363216
+  Br   3.343942780   1.930626264   8.300065808 
+
+K_POINTS {automatic}
+  128 128 1 0 0 0
