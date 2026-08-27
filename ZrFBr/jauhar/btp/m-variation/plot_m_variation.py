@@ -7,12 +7,12 @@ try:
 except:
     pass
 
-b_values = [1000, 5000, 10000, 50000]
+m_values = [2, 16, 32]
 
 fig, axes = plt.subplots(1, 3, figsize=(15, 5))
 
-for b in b_values:
-    filename = f"interpolation_b{b}.trace"
+for m in m_values:
+    filename = f"interpolation_m{m}.trace"
     try:
         data = np.loadtxt(filename, skiprows=1)
     except:
@@ -25,15 +25,16 @@ for b in b_values:
     sigma = data[:, 5]
     kappa = data[:, 7]
     
+    # Filter 300K saja
     mask = (T == 300)
     
     idx_ref = np.argmin(np.abs(N_uc[mask]))
     ef_ref = Ef_ry[mask][idx_ref]
     x_eV = (Ef_ry[mask] - ef_ref) * 13.605698
     
-    axes[0].plot(x_eV, S[mask], label=f'b = {b}')
-    axes[1].plot(x_eV, sigma[mask], label=f'b = {b}')
-    axes[2].plot(x_eV, kappa[mask], label=f'b = {b}')
+    axes[0].plot(x_eV, S[mask], label=f'm = {m}')
+    axes[1].plot(x_eV, sigma[mask], label=f'm = {m}')
+    axes[2].plot(x_eV, kappa[mask], label=f'm = {m}')
 
 axes[0].set_title('Seebeck coefficient')
 axes[0].set_ylabel(r'$S$ ($\mu$V/K)')
@@ -51,6 +52,6 @@ for ax in axes:
     ax.axvline(0, color='gray', linestyle='--', linewidth=0.8)
     ax.legend()
 
-fig.suptitle('Uji Resolusi Bins (-b) pada Suhu 300K', fontsize=14)
+fig.suptitle('Uji Resolusi Interpolasi (-m) pada Suhu 300K', fontsize=14)
 plt.tight_layout()
-plt.savefig('b_variation_3panel.png', dpi=300)
+plt.savefig('m_variation_3panel.png', dpi=300)
