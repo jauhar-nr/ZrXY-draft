@@ -1,0 +1,4 @@
+Prefix : ZrFBr
+VBM    : 4.3671 eV
+CBM    : 5.5612 eV
+E_F    : 4.964150 eV  (= (VBM+CBM)/2)
