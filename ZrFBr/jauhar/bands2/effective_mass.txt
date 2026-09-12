@@ -1,0 +1,11 @@
+==================================================
+Hasil Analisis Super-Dense Band Structure: ZrFBr
+==================================================
+Kisi a               : 3.343942779 Angstrom
+Fermi Energy         : 4.9605 eV
+VBM Energy           : 4.3664 eV (pada x = 0.9107)
+CBM Energy           : 5.5545 eV (pada x = 1.3329)
+Band Gap (Indirect)  : 1.1881 eV
+Massa Efektif Hole   : 0.6958 m_0
+Massa Efektif Elec   : 1.2551 m_0
+==================================================

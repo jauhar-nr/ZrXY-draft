@@ -1,0 +1,44 @@
+Lmod has detected the following error: The following module(s) are unknown:
+"Anaconda"
+
+Please check the spelling or version number. Also try "module spider ..."
+It is also possible your cache file is out-of-date; it may help to try:
+  $ module --ignore_cache load "Anaconda"
+
+Also make sure that all modulefiles written in TCL start with the string
+#%Module
+
+
+
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG IEEE_DENORMAL
+Note: The following floating-point exceptions are signalling: IEEE_OVERFLOW_FLAG

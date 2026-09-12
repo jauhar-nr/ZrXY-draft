@@ -1,0 +1,27 @@
+============================================================
+  Perhitungan Super-Dense Band Structure: ZrBr2
+  Thu Sep 10 03:22:20 WIB 2026
+============================================================
+[1/4] Menjalankan SCF (32 Cores)...
+[2/4] Menjalankan Super-Dense NSCF Bands (32 Cores, 4 K-point Pools)...
+[3/4] Menjalankan Ekstraksi BANDS (bands.x)...
+[4/4] Menjalankan Analisis Effective Mass & Plotting...
+Membaca data Super-Dense Band Structure untuk ZrBr2...
+Total pita terdeteksi: 46, titik k per pita: 361
+==================================================
+Hasil Analisis Super-Dense Band Structure: ZrBr2
+==================================================
+Kisi a               : 3.560487104 Angstrom
+Fermi Energy         : 5.5744 eV
+VBM Energy           : 5.1698 eV (pada x = 0.9107)
+CBM Energy           : 5.9763 eV (pada x = 1.3440)
+Band Gap (Indirect)  : 0.8065 eV
+Massa Efektif Hole   : 0.4374 m_0
+Massa Efektif Elec   : 1.0242 m_0
+==================================================
+
+Gambar disimpan sebagai BandStructure_SuperDense.png
+============================================================
+  Selesai! Seluruh tahap Super-Dense Band Structure berhasil.
+  Thu Sep 10 03:27:45 WIB 2026
+============================================================

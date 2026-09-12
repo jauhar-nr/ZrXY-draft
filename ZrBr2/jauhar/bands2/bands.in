@@ -1,0 +1,5 @@
+&BANDS
+  prefix = 'ZrBr2',
+  outdir = './tmp',
+  filband = 'bands.dat'
+/

@@ -1,0 +1,11 @@
+==================================================
+Hasil Analisis Super-Dense Band Structure: ZrBr2
+==================================================
+Kisi a               : 3.560487104 Angstrom
+Fermi Energy         : 5.5744 eV
+VBM Energy           : 5.1698 eV (pada x = 0.9107)
+CBM Energy           : 5.9763 eV (pada x = 1.3440)
+Band Gap (Indirect)  : 0.8065 eV
+Massa Efektif Hole   : 0.4374 m_0
+Massa Efektif Elec   : 1.0242 m_0
+==================================================
