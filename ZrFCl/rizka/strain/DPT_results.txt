@@ -1,0 +1,37 @@
+======================================================================
+HASIL ANALISIS DEFORMATION POTENTIAL THEORY (DPT): ZrFCl
+Formula: Persamaan (1) Wang et al. JPCM 35 (2023) 394001
+======================================================================
+
+--- Arah: dir_x ---
+Modulus Elastis C_2D : 100.02 N/m (J/m^2)
+Massa Efektif Hole   : 0.6290 m_0
+Massa Efektif Elec   : 1.5903 m_0
+DP Constant Hole E1  : -7.106 eV
+DP Constant Elec E1  : -4.729 eV
+
+Suhu (K) | Tipe Carrier | Waktu Relaksasi tau (fs) | Mobilitas mu (cm^2/Vs)
+----------------------------------------------------------------------
+     300 | Electron (n) |                    22.70 |                25.11
+     300 | Hole (p)     |                    25.42 |                71.08
+     600 | Electron (n) |                    11.35 |                12.55
+     600 | Hole (p)     |                    12.71 |                35.54
+     900 | Electron (n) |                     7.57 |                 8.37
+     900 | Hole (p)     |                     8.47 |                23.69
+
+--- Arah: dir_y ---
+Modulus Elastis C_2D : 100.05 N/m (J/m^2)
+Massa Efektif Hole   : 0.6290 m_0
+Massa Efektif Elec   : 1.5903 m_0
+DP Constant Hole E1  : -6.768 eV
+DP Constant Elec E1  : -3.429 eV
+
+Suhu (K) | Tipe Carrier | Waktu Relaksasi tau (fs) | Mobilitas mu (cm^2/Vs)
+----------------------------------------------------------------------
+     300 | Electron (n) |                    43.18 |                47.76
+     300 | Hole (p)     |                    28.03 |                78.39
+     600 | Electron (n) |                    21.59 |                23.88
+     600 | Hole (p)     |                    14.02 |                39.19
+     900 | Electron (n) |                    14.39 |                15.92
+     900 | Hole (p)     |                     9.34 |                26.13
+

@@ -1,0 +1,63 @@
+
+     Program POST-PROC v.7.2 starts on 18Sep2026 at  8:26: 4 
+
+     This program is part of the open-source Quantum ESPRESSO suite
+     for quantum simulation of materials; please cite
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 21 395502 (2009);
+         "P. Giannozzi et al., J. Phys.:Condens. Matter 29 465901 (2017);
+         "P. Giannozzi et al., J. Chem. Phys. 152 154105 (2020);
+          URL http://www.quantum-espresso.org", 
+     in publications or presentations arising from this work. More details at
+     http://www.quantum-espresso.org/quote
+
+     Parallel version (MPI), running on    32 processors
+
+     MPI processes distributed on     1 nodes
+     R & G space division:  proc/nbgrp/npool/nimage =      32
+     223856 MiB available memory on the printing compute node when the environment starts
+
+
+     Reading xml data from directory:
+
+     ./tmp/ZrClBr.save/
+     file Zr.pbe-spn-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+     file Cl.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  3S 3P renormalized
+     file Br.pbe-n-kjpaw_psl.1.0.0.UPF: wavefunction(s)  4S 4P renormalized
+
+     IMPORTANT: XC functional enforced from input :
+     Exchange-correlation= PBE
+                           (   1   4   3   4   0   0   0)
+     Any further DFT definition will be discarded
+     Please, verify this is what you really want
+
+
+     Parallelization info
+     --------------------
+     sticks:   dense  smooth     PW     G-vecs:    dense   smooth      PW
+     Min          24      24      6                 1566     1566     234
+     Max          25      25      7                 1579     1579     251
+     Sum         769     769    223                50293    50293    7787
+
+     Using Slab Decomposition
+
+
+     Check: negative core charge=   -0.000004
+
+     negative rho (up, down):  4.083E-08 0.000E+00
+
+     Calling punch_plot, plot_num =  11
+     Writing data to file  pot.dat
+     Reading data from file  pot.dat
+
+     Writing data to be plotted to file pot_1d.dat
+     Min, Max, imaginary charge:   -18.015644    0.646767    0.000000
+     Plot Type: 1D along a line        Output format: gnuplot      
+
+     POST-PROC    :      0.66s CPU      0.83s WALL
+
+
+   This run was terminated on:   8:26: 4  18Sep2026            
+
+=------------------------------------------------------------------------------=
+   JOB DONE.
+=------------------------------------------------------------------------------=

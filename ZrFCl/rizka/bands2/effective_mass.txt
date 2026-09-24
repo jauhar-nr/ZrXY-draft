@@ -1,0 +1,11 @@
+==================================================
+Hasil Analisis Super-Dense Band Structure: ZrFCl
+==================================================
+Kisi a               : 3.258871527 Angstrom
+Fermi Energy         : 4.6510 eV
+VBM Energy           : 4.0181 eV (pada x = 0.9107)
+CBM Energy           : 5.2925 eV (pada x = 1.3718)
+Band Gap (Indirect)  : 1.2744 eV
+Massa Efektif Hole   : 0.6290 m_0
+Massa Efektif Elec   : 1.5903 m_0
+==================================================
